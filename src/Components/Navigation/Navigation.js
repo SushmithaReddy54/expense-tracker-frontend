@@ -15,9 +15,9 @@ function Navigation({ active, setActive }) {
   const getTitle = (title) => {
     switch (title) {
       case "Incomes":
-        return `${title} - $${totalIncome()}`;
+        return `Income - $${totalIncome()}`;
       case "Expenses":
-        return `${title} - $${totalExpenses()}`;
+        return `Expense - $${totalExpenses()}`;
       default:
         return `${title}`;
     }
