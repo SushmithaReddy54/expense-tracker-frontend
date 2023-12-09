@@ -27,8 +27,6 @@ function App() {
         <Route path="/signin" Component={SignIn}></Route>
         <Route path='forgot-password' Component={ForgotPassword}></Route>
         <Route path='reset-password/:id/:token' Component={ResetPassword}></Route>
-
-        <Route path="*" Component={PageNotFound}></Route>
       </Routes>
     );
   };
